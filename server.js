@@ -9,6 +9,10 @@ app.use(bp.urlencoded({ extended: true }));
 app.use(bp.json());
 app.use(morgan("dev"));
 
+// handle all players routes inside a sub route
+const PlayersRoutes = require("./src/modules/players/players.routes");
+app.use("/players", PlayersRoutes);
+
 app.use('/', (req, res) => {
   res.json({
     message: 'Welcome to node server'
