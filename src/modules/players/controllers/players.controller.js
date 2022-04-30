@@ -10,3 +10,14 @@ exports.fetchPlayers = (req, res, next) => {
     next(err);
   }
 };
+
+exports.getPlayer = (req, res, next) => {
+  try {
+    const id = req.params.id;
+    const player = PlayersService.getPlayer(id);
+
+    res.json(player);
+  } catch (err) {
+    next(err);
+  }
+};
