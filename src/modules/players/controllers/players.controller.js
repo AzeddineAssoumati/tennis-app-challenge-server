@@ -21,3 +21,12 @@ exports.getPlayer = (req, res, next) => {
     next(err);
   }
 };
+
+exports.fetchStatistics = (req, res, next) => {
+  try {
+    const statistics = PlayersService.fetchStatistics();
+    res.json(statistics);
+  } catch (err) {
+    next(err);
+  }
+};
