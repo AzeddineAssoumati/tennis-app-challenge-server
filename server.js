@@ -13,12 +13,6 @@ app.use(morgan("dev"));
 const PlayersRoutes = require("./src/modules/players/players.routes");
 app.use("/players", PlayersRoutes);
 
-app.use('/', (req, res) => {
-  res.json({
-    message: 'Welcome to node server'
-  })
-});
-
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
