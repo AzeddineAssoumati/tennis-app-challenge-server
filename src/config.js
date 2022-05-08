@@ -1,7 +1,10 @@
 exports.getConfig = () => {
   return {
     cors: {
-      origin: ['http://localhost:4200', 'http://tennis-app-challenge-latelier.s3-website.eu-west-3.amazonaws.com'],
+      origin: [
+        'http://localhost:4200',
+        'https://red-pebble-03eef3d03.1.azurestaticapps.net'
+      ],
       optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
     }
   }
