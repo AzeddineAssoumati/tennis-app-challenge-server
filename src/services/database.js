@@ -22,6 +22,35 @@ exports.getJsonData = () => {
           height: 188,
           age: 31,
           last: [1, 1, 1, 1, 1],
+          carrerTitles: [
+            {
+              year: 2021,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)',
+                'Roland Garros (Outdoor/Clay)',
+                'Belgrade 2 (Outdoor/Clay)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2020,
+              titles: [
+                'ATP Masters 1000 Rome (Indoor/Hard)',
+                'ATP Masters 1000 Cincinnati (Outdoor/Hard)',
+                'Dubai (Outdoor/Hard)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2019,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Tokio (Outdoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)'
+              ]
+            }
+          ]
         },
       },
       {
@@ -32,7 +61,7 @@ exports.getJsonData = () => {
         sex: "F",
         country: {
           picture:
-            "https://data.latelier.co/training/tennis_stats/resources/USA.png",
+            "https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg", // change it (the original link is down)
           code: "USA",
         },
         picture:
@@ -44,6 +73,35 @@ exports.getJsonData = () => {
           height: 185,
           age: 38,
           last: [0, 1, 0, 0, 1],
+          carrerTitles: [
+            {
+              year: 2021,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)',
+                'Roland Garros (Outdoor/Clay)',
+                'Belgrade 2 (Outdoor/Clay)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2020,
+              titles: [
+                'ATP Masters 1000 Rome (Indoor/Hard)',
+                'ATP Masters 1000 Cincinnati (Outdoor/Hard)',
+                'Dubai (Outdoor/Hard)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2019,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Tokio (Outdoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)'
+              ]
+            }
+          ]
         },
       },
       {
@@ -66,6 +124,35 @@ exports.getJsonData = () => {
           height: 183,
           age: 33,
           last: [1, 1, 1, 0, 1],
+          carrerTitles: [
+            {
+              year: 2021,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)',
+                'Roland Garros (Outdoor/Clay)',
+                'Belgrade 2 (Outdoor/Clay)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2020,
+              titles: [
+                'ATP Masters 1000 Rome (Indoor/Hard)',
+                'ATP Masters 1000 Cincinnati (Outdoor/Hard)',
+                'Dubai (Outdoor/Hard)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2019,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Tokio (Outdoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)'
+              ]
+            }
+          ]
         },
       },
       {
@@ -76,7 +163,7 @@ exports.getJsonData = () => {
         sex: "F",
         country: {
           picture:
-            "https://data.latelier.co/training/tennis_stats/resources/USA.png",
+            "https://cdn.britannica.com/33/4833-004-828A9A84/Flag-United-States-of-America.jpg", // change it (the original link is down)
           code: "USA",
         },
         picture:
@@ -88,6 +175,35 @@ exports.getJsonData = () => {
           height: 175,
           age: 37,
           last: [0, 1, 1, 1, 0],
+          carrerTitles: [
+            {
+              year: 2021,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)',
+                'Roland Garros (Outdoor/Clay)',
+                'Belgrade 2 (Outdoor/Clay)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2020,
+              titles: [
+                'ATP Masters 1000 Rome (Indoor/Hard)',
+                'ATP Masters 1000 Cincinnati (Outdoor/Hard)',
+                'Dubai (Outdoor/Hard)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2019,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Tokio (Outdoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)'
+              ]
+            }
+          ]
         },
       },
       {
@@ -110,6 +226,35 @@ exports.getJsonData = () => {
           height: 185,
           age: 33,
           last: [1, 0, 0, 0, 1],
+          carrerTitles: [
+            {
+              year: 2021,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)',
+                'Roland Garros (Outdoor/Clay)',
+                'Belgrade 2 (Outdoor/Clay)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2020,
+              titles: [
+                'ATP Masters 1000 Rome (Indoor/Hard)',
+                'ATP Masters 1000 Cincinnati (Outdoor/Hard)',
+                'Dubai (Outdoor/Hard)',
+                'Australian Open (Outdoor/Hard)'
+              ]
+            },
+            {
+              year: 2019,
+              titles: [
+                'ATP Masters 1000 Paris (Indoor/Hard)',
+                'Tokio (Outdoor/Hard)',
+                'Wimbeldon (Outdoor/Grass)'
+              ]
+            }
+          ]
         },
       },
     ],

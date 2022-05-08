@@ -4,11 +4,12 @@ const mathjs = require("mathjs");
 
 class PlayersService {
   static fetchPlayers() {
-    return getJsonData().players.map((player) => {
+    const players = getJsonData().players.map((player) => {
       return {
         id: player.id,
-        firstname: player.firstname,
-        lastname: player.lastname,
+        firstName: player.firstname,
+        lastName: player.lastname,
+        fullName: player.firstname + ' ' + player.lastname,
         picture: player.picture,
         points: player.data.points,
         rank: player.data.rank,
@@ -18,6 +19,13 @@ class PlayersService {
         }
       };
     });
+
+    const statistics = this.fetchStatistics();
+
+    return {
+      players,
+      statistics
+    }
   }
 
   static getPlayer(id) {
@@ -29,8 +37,8 @@ class PlayersService {
 
     return {
       id: player.id,
-      firstname: player.firstname,
-      lastname: player.lastname,
+      firstName: player.firstname,
+      lastName: player.lastname,
       picture: player.picture,
       points: player.data.points,
       rank: player.data.rank,
@@ -43,6 +51,7 @@ class PlayersService {
         picture: player.country.picture,
         name: EnumCountry[player.country.code].name,
       },
+      careerTitles: player.data.carrerTitles
     };
   }
 
@@ -96,7 +105,7 @@ class PlayersService {
     return Object.values(country_ratio)
       .sort((country_a, country_b) => mathjs.compare(country_b.ratio, country_a.ratio))
       .map(item => {
-        item.ratio = mathjs.floor(item.ratio * 100).toString() + '%'; // ratio in percentage
+        item.ratio = mathjs.floor(item.ratio * 100);
         return item;
       });
   }

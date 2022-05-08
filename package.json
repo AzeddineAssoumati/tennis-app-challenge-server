@@ -7,10 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
+  "engines": {
+    "node": "16.15.0"
+  },
   "author": "azeddine assoumati",
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.20.0",
+    "cors": "2.8.5",
     "express": "4.18.1",
     "mathjs": "10.5.0",
     "morgan": "1.10.0",
